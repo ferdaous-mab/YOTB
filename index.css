@@ -3,6 +3,14 @@ body {
     color: white;
     font-family: Arial, sans-serif;
   }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
   /*HEAD PARTIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
   .head{
     display: flex;
@@ -45,7 +53,7 @@ body {
     position: relative;
   }
   .searchh {
-    width: 1000px;
+    width: 700px;
     padding:20px 25px;
     border:0px solid #ffffff;
     border-radius:46px;
@@ -315,8 +323,4 @@ body {
   
   
   
-  @media-screen and ( min-width:1001px) {
-  .classedel’elementHTML {
-  Font-size : 20px
-  }
-  }
+  
